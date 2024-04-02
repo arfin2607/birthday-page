@@ -14,6 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
         //... more messages as needed
     ];
 
+
 // Now, when creating stars, make sure to use a closure to capture the current index i
     for (let i = 0; i < messages.length; i++) {
         const star = document.createElement('div');
